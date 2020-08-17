@@ -1,0 +1,18 @@
+service: challenge
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: prod
+  region: eu-central-1
+
+plugins:
+  - serverless-mocha-plugin
+
+functions:
+  bmi:
+    handler: handler.bmi
+    events:
+    - http:
+       path: bmi
+       method: get
