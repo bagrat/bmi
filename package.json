@@ -8,6 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^7.7.0",
     "serverless": "^1.78.1",
     "serverless-mocha-plugin": "^1.12.0"
   },

@@ -5,6 +5,7 @@ init:
 
 
 test:
+	eslint .
 	sls invoke test
 
 deploy:
