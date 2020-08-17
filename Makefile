@@ -1,4 +1,8 @@
-.PHONY: test deploy
+.PHONY: init test deploy
+
+init:
+	npm install
+
 
 test:
 	sls invoke test

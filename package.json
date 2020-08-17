@@ -1,0 +1,27 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "BMI Calculator",
+  "main": "handler.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^1.78.1",
+    "serverless-mocha-plugin": "^1.12.0"
+  },
+  "scripts": {
+    "test": "sls invoke test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagrat/bmi.git"
+  },
+  "author": "Bagrat Aznauryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bagrat/bmi/issues"
+  },
+  "homepage": "https://github.com/bagrat/bmi#readme"
+}

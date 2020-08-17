@@ -7,12 +7,17 @@ The handler is served as an HTTP `GET` endpoint at `/bmi`. It accepts query para
 `weight` and `height` and returns the BMI as a number in the response body.
 
 To be able to test and deploy this handler, please make sure you have
-Node.js 12 and [Serverless](https://www.serverless.com) installed along with your
-AWS configurations.
+Node.js 12 installed along with your AWS configurations.
+
+To install all the required dependencies, please run the following command:
+
+```
+$ make init
+```
 
 ## Testing
 
-To test the BMI calculator locally please run the following command:
+To test the BMI calculator locally, please run the following command:
 
 ```
 $ make test
@@ -23,5 +28,5 @@ $ make test
 To deploy the BMI calculator to AWS using Serverless, please run the following command:
 
 ```
-make deploy
+$ make deploy
 ```
