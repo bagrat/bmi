@@ -22,7 +22,7 @@ Node.js 12 installed along with your AWS configurations.
 Then install the rest of required dependencies using this command:
 
 ```
-$ make init
+$ npm install
 ```
 
 ### Testing
@@ -30,7 +30,7 @@ $ make init
 To test the BMI calculator locally, please run the following command:
 
 ```
-$ make test
+$ npm test
 ```
 
 ### Deployment
@@ -38,5 +38,5 @@ $ make test
 To deploy the BMI calculator to AWS using Serverless, please run the following command:
 
 ```
-$ make deploy
+$ npm run deploy
 ```
