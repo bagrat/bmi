@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Parses the `weight` and `height` parameters from the
+ * Parses  the `weight` and `height` parameters from the
  * given object.
  *
  * If the expected parameters are not present or are invalid, an error
