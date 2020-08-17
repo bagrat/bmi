@@ -1,7 +1,7 @@
 # BMI Calculator
 
-This Serverless API calculates Body Mass Index (BMI) given the weight and
-height of a person. 
+This Serverless API calculates Body Mass Index (BMI) given the weight in
+kilograms and height in meters of a person. 
 
 The BMI calculator is served as an HTTP `GET` endpoint at `/bmi`. It accepts query parameters
 `weight` and `height` and returns the BMI as a number in the response body.
@@ -11,7 +11,7 @@ using cURL for example:
 
 ```
 $ BMI_URL="https://2j62oej0ci.execute-api.eu-central-1.amazonaws.com/prod"
-$ curl $BMI_URL'/bmi?weight=10&height=10'
+$ curl $BMI_URL'/bmi?weight=66&height=1.76'
 ```
 
 ## Development
