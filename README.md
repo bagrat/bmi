@@ -9,7 +9,7 @@ The BMI calculator is served as an HTTP `GET` endpoint at `/bmi`. It accepts que
 To be able to test and deploy this API, please make sure you have
 Node.js 12 installed along with your AWS configurations.
 
-To install all the required dependencies, please run the following command:
+Then install the rest of required dependencies using this command:
 
 ```
 $ make init
